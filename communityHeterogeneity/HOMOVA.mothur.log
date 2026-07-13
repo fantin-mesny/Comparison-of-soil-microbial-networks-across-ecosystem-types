@@ -1,0 +1,59 @@
+Linux version
+
+Using ReadLine,Boost,HDF5,GSL
+mothur v.1.48.3
+Last updated: 5/21/25
+by
+Patrick D. Schloss
+
+Department of Microbiology & Immunology
+
+University of Michigan
+http://www.mothur.org
+
+When using, please cite:
+Schloss, P.D., et al., Introducing mothur: Open-source, platform-independent, community-supported software for describing and comparing microbial communities. Appl Environ Microbiol, 2009. 75(23):7537-41.
+
+Distributed under the GNU General Public License
+
+Type 'help()' for information on the commands that are available
+
+For questions and analysis support, please visit our forum at https://forum.mothur.org
+
+Type 'quit()' to exit program
+
+[NOTE]: Setting random seed to 19760620.
+
+Interactive Mode
+
+
+
+mothur > homova(phylip=Bacteria.brayCurtisMatrix.phy,design=Bacteria.design,iters=999)
+HOMOVA	BValue	P-value	SSwithin/(Ni-1)_values
+Cropland-Grassland-Woodland	0.711976	<0.001001*	0.291002	0.310927	0.325844
+Cropland-Grassland	0.186272	0.004004*	0.291002	0.310927
+Cropland-Woodland	0.693867	<0.001001*	0.291002	0.325844
+Grassland-Woodland	0.0797022	0.02002	0.310927	0.325844
+
+Experiment-wise error rate: 0.05
+Pair-wise error rate (Bonferroni): 0.0166667
+If you have borderline P-values, you should try increasing the number of iterations
+
+Output File Names: 
+Bacteria.brayCurtisMatrix.homova
+
+
+mothur > homova(phylip=Fungi.brayCurtisMatrix.phy,design=Fungi.design,iters=999)
+HOMOVA	BValue	P-value	SSwithin/(Ni-1)_values
+Cropland-Grassland-Woodland	0.757947	<0.001001*	0.425188	0.454609	0.477916
+Cropland-Grassland	0.190102	<0.001001*	0.425188	0.454609
+Cropland-Woodland	0.741609	<0.001001*	0.425188	0.477916
+Grassland-Woodland	0.0907168	<0.001001*	0.454609	0.477916
+
+Experiment-wise error rate: 0.05
+Pair-wise error rate (Bonferroni): 0.0166667
+If you have borderline P-values, you should try increasing the number of iterations
+
+Output File Names: 
+Fungi.brayCurtisMatrix.homova
+

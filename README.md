@@ -42,3 +42,9 @@ This repository includes scripts used in the study "The complexity and robustnes
 
 ### Keystone taxa identification and analyses
 *To be uploaded*
+
+
+
+## Data availability:
+Networks can be downloaded from the following ESDAC repository: [Bacterial and fungal co-occurrence networks in European croplands, grasslands and woodlands](https://esdac.jrc.ec.europa.eu/content/bacterial-and-fungal-co-occurrence-networks-european-croplands-grasslands-and-woodlands)
+

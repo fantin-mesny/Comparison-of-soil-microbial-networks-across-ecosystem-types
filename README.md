@@ -27,6 +27,7 @@ This repository includes scripts used in the study "The complexity and robustnes
 - Network property extraction and analysis from networks reconstructed from 50 subsets of 50 samples per ecosystem types
 - Shuffling the dataset to reconstruct null-model networks
 - Comparison of null-model networks to networks reconstructed from 50 subsets of 50 samples per ecosystem types
+- Export node degree, closeness and betweenness from networks for further analyses (*e.g.* keystone identification)
 
 &rarr; See [networkProperties](https://github.com/fantin-mesny/Comparison-of-soil-microbial-networks-across-ecosystem-types/tree/main/networkProperties)
 

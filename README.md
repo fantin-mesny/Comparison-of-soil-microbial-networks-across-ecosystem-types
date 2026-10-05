@@ -54,6 +54,7 @@ This repository includes scripts used in the study *The complexity and robustnes
 - Identification of microbial keystones in multikingdom networks and analysis of their specificity (Venn diagrams, closeness/degree in each ecosystem type)
 - Analysis of the prevalence and relative abundance of each keystone in each ecosystem type-specific multikingdom network
 - Regression analysis testing for association between keystone richness and environmental variables
+- Spatial models testing for association between keystone richness and soil pH while accounting for site geographic distribution
 
 &rarr; See [microbialKeystones](https://github.com/fantin-mesny/Comparison-of-soil-microbial-networks-across-ecosystem-types/tree/main/microbialKeystones)
 
